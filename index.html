@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lehlohonolo Hope Mkhomazi — Quality & Food Safety Leader (FMCG)</title>
+
+  <!-- Primary SEO -->
+  <meta name="description" content="Lehlohonolo Hope Mkhomazi — Quality professional with 3+ years’ FMCG experience. Expertise in ISO 9001, FSSC 22000, ISO/IEC 17025, laboratory management, SAP and food safety systems." />
+  <meta name="keywords" content="Lehlohonolo Hope Mkhomazi, Quality Assurance, Food Safety, FMCG, ISO 9001, FSSC 22000, ISO 17025, Quality Control, Pretoria, South Africa, Laboratory" />
+  <meta name="author" content="Lehlohonolo Hope Mkhomazi" />
+  <link rel="canonical" href="https://<your-github-username>.github.io/<repo-name>/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Lehlohonolo Hope Mkhomazi — Quality & Food Safety Leader" />
+  <meta property="og:description" content="Professional portfolio and résumé of a Quality & Food Safety specialist in South Africa with FMCG experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://<your-github-username>.github.io/<repo-name>/" />
+  <meta property="og:image" content="https://<your-github-username>.github.io/<repo-name>/og-preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lehlohonolo Hope Mkhomazi — Quality & Food Safety Leader" />
+  <meta name="twitter:description" content="Quality professional (FMCG) — ISO 9001, FSSC 22000, ISO 17025." />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Lehlohonolo Hope Mkhomazi",
+    "jobTitle":"Quality & Food Safety Professional",
+    "email":"mailto:lehlohonolohope@gmail.com",
+    "telephone":"+27-76-305-9081",
+    "address":{"@type":"PostalAddress","addressLocality":"Pretoria","addressCountry":"ZA","postalCode":"0152"},
+    "knowsAbout":["ISO 9001","FSSC 22000","ISO/IEC 17025","GMP","HACCP","SPC","SAP"],
+    "sameAs":[]
+  }
+  </script>
+
+  <!-- Styles: modern, mobile-first, professional -->
+  <style>
+    :root{
+      --bg:#f7faf8;
+      --card:#ffffff;
+      --ink:#0b1a13;
+      --muted:#5b6b65;
+      --brand:#0a7e51;
+      --navy:#0f1720;
+      --accent:#10b981;
+      --glass: rgba(255,255,255,0.65);
+      --max-width:1100px;
+      --radius:14px;
+      --shadow: 0 8px 30px rgba(10,20,20,0.06);
+      --print-font: "Times New Roman", Times, serif;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg, #eef7f3 0%, var(--bg) 100%);
+      color:var(--ink);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.55;
+      padding-bottom:60px;
+    }
+
+    .wrap{max-width:var(--max-width);margin:0 auto;padding:20px}
+
+    /* HEADER */
+    .header {
+      background: linear-gradient(90deg,var(--navy), color-mix(in oklab,var(--navy) 60%,var(--brand) 40%));
+      color: white;
+      padding: 18px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-radius:12px;
+      box-shadow: var(--shadow);
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .brand {
+      display:flex; gap:14px; align-items:center;
+      flex: 1;
+    }
+
+    .logo{
+      width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--brand),#065f43);
+      display:grid;place-items:center;color:white;font-weight:700;font-size:20px;box-shadow:0 6px 18px rgba(10,126,81,0.12)
+    }
+
+    .name { font-size: clamp(1.5rem, 2vw, 2.2rem); margin:0; }
+    .title { font-size: clamp(1rem, 1.5vw, 1.2rem); margin:0; opacity:.92 }
+
+    /* NAVIGATION */
+    nav.top-nav.nav ul {
+      list-style:none; margin:0; padding:0; display:flex; gap:8px; align-items:center;
+    }
+
+    nav.top-nav.nav a {
+      color: rgba(255,255,255,0.95); text-decoration:none;
+      padding:8px 12px; border-radius:999px; font-weight:600;
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.06);
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    nav.top-nav.nav a:hover { color: var(--accent); transform:translateY(-2px); }
+
+    /* HAMBURGER */
+    .menu-toggle {
+      display: none;
+      font-size: 2rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: white;
+    }
+
+    /* MOBILE STYLING */
+    @media (max-width: 768px){
+      .menu-toggle { display: block; }
+
+      nav.top-nav.nav { display: none; width: 100%; margin-top:0.5rem; }
+      nav.top-nav.nav ul { flex-direction: column; gap:1rem; text-align:center; }
+
+      nav.top-nav.nav.active { display:block; animation: slideDown 0.4s ease; }
+
+      @keyframes slideDown {
+        from {opacity:0; transform:translateY(-10px);}
+        to {opacity:1; transform:translateY(0);}
+      }
+    }
+
+    /* HERO */
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;margin:20px 0 28px;align-items:center}
+    .hero-card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.5));
+      border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);backdrop-filter: blur(6px);
+      display:flex;flex-direction:column;gap:12px;
+    }
+    .headline{display:flex;flex-direction:column;gap:6px}
+    .headline h2{margin:0;font-size:clamp(1.3rem,4vw,2rem);color:var(--navy)}
+    .headline p.lead{margin:0;color:var(--muted);max-width:70ch;font-size:clamp(.95rem,1.2vw,1.05rem)}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+    .btn{
+      display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:10px;border:0;font-weight:700;cursor:pointer;
+      background:linear-gradient(90deg,var(--brand),var(--accent));color:white;box-shadow:0 10px 30px rgba(16,185,129,0.12);
+      text-decoration: none;
+    }
+    .btn.secondary{background:transparent;color:var(--brand);border:1px solid color-mix(in oklab,var(--brand) 15%, transparent)}
+
+    /* MAIN CONTENT & CARD STYLING */
+    .content-card{
+        background: var(--card);
+        padding: 24px;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        margin-bottom: 24px;
+    }
+    .content-card h3 {
+        margin-top: 0;
+        color: var(--navy);
+        font-size: 1.5rem;
+    }
+
+    /* TWO-COLUMN DETAILS */
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:16px}
+    @media (max-width:920px){ .two-col{grid-template-columns:1fr} }
+    .profile-list{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+    .chip{display:inline-block;background:rgba(10,20,20,0.04);padding:6px 12px;border-radius:999px;font-weight:600;color:var(--muted);font-size:.95rem}
+
+    /* COMPETENCIES */
+    .competencies{display:grid;gap:12px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));}
+    .skill{display:flex;flex-direction:column;gap:6px;}
+    .skill label { font-weight: 600; }
+    .skill .bar{height:12px;background:rgba(15,23,32,0.06);border-radius:999px;overflow:hidden}
+    .skill .bar > i{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--accent));width:0%;border-radius:999px;transition:width 1s ease}
+
+    /* TIMELINE */
+    .timeline{border-left:3px solid rgba(10,20,20,0.06);padding-left:18px;display:flex;flex-direction:column;gap:28px}
+    .tl-item{position:relative;padding-left:18px}
+    .tl-item::before{content:'';position:absolute;left:-30px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--brand);box-shadow:0 6px 18px rgba(10,126,81,0.12)}
+    .tl-item h4{margin:0;font-size:1.1rem;color:var(--navy)}
+    .tl-item .meta{font-size:.9rem;color:var(--muted);margin-bottom:6px;font-weight: bold;}
+    .tl-item p, .tl-item ul {margin:0;color:var(--muted)}
+    .tl-item ul { padding-left: 20px; margin-top: 8px; }
+
+    /* CONTACT SECTION */
+    .contact-details { text-align: center; margin-bottom: 24px; }
+    .contact-details p { margin: 4px 0; font-size: 1.1rem; }
+    form.contact{display:grid;gap:10px}
+    input,textarea,select{width:100%;padding:12px;border-radius:8px;border:1px solid rgba(10,20,20,0.06);font-size:1rem}
+    textarea{min-height:120px;resize:vertical}
+    .form-note{font-size:.9rem;color:var(--muted)}
+
+    /* FOOTER */
+    footer{margin-top:24px;padding:20px;text-align:center;color:var(--muted);font-size:.95rem}
+
+    /* PRINT */
+    @media print{
+      :root{--brand:#000;--navy:#000;--accent:#000}
+      body{background:#fff;color:#000;font-family:var(--print-font);font-size:11pt}
+      header.site-header, nav.top-nav, .cta-row, .btn, .muted, .profile-card .chip, .glass, .contact, footer{display:none}
+      .wrap{padding:0;}
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header header" role="banner" aria-label="Site header">
+    <div class="header-container wrap">
+      <div class="brand" role="heading" aria-level="1">
+        <div class="logo" aria-hidden="true">LM</div>
+        <div>
+          <h1 class="name">Lehlohonolo Hope Mkhomazi</h1>
+          <p class="title">Quality & Food Safety Leader — FMCG Specialist</p>
+        </div>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="top-nav nav" role="navigation" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#about">Summary</a></li>
+          <li><a href="#competencies">Competencies</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+      <!-- HERO / PROFESSIONAL SUMMARY -->
+      <section id="about" class="hero">
+        <div class="hero-card">
+          <div class="headline">
+            <h2>Professional Summary</h2>
+            <p class="lead">Dedicated Quality professional with over 3 years of experience ensuring product quality and food safety within the FMCG sector. I offer a practical, hands-on approach to product testing, equipment calibration, compliance, and systems management. I am a resilient and ambitious professional seeking new challenges to further develop my skills and contribute meaningfully to achieving organisational goals.</p>
+          </div>
+          <div class="cta-row">
+            <a class="btn" href="#contact">Contact Me</a>
+            <a class="btn secondary" href="#experience">View Experience</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- TWO-COLUMN PROFILE -->
+      <section class="two-col">
+          <div class="content-card">
+              <h3>Key Skills</h3>
+              <ul class="profile-list">
+                  <li><span class="chip">Quality Assurance</span></li>
+                  <li><span class="chip">Food Safety Management</span></li>
+                  <li><span class="chip">ISO 9001</span></li>
+                  <li><span class="chip">FSSC 22000</span></li>
+                  <li><span class="chip">ISO/IEC 17025</span></li>
+                  <li><span class="chip">SAP</span></li>
+                  <li><span class="chip">Data Analysis</span></li>
+                  <li><span class="chip">Internal Audits</span></li>
+                  <li><span class="chip">Continuous Improvement</span></li>
+              </ul>
+          </div>
+
+          <div class="content-card">
+            <h3>Personal Details</h3>
+            <ul class="profile-list" style="flex-direction: column;">
+                <li><strong>Location:</strong> Pretoria, 0152</li>
+                <li><strong>Relocation:</strong> Open to relocating within South Africa</li>
+                <li><strong>Driving Licence:</strong> Code 10 (C1)</li>
+            </ul>
+          </div>
+      </section>
+
+      <!-- COMPETENCIES -->
+      <section class="content-card" id="competencies">
+        <h3>Core Competencies</h3>
+        <div class="competencies">
+          <div class="skill">
+            <label>Quality Management (ISO9001)</label>
+            <div class="bar"><i style="width:95%"></i></div>
+          </div>
+          <div class="skill">
+            <label>Food Safety (FSSC 22000)</label>
+            <div class="bar"><i style="width:95%"></i></div>
+          </div>
+          <div class="skill">
+            <label>Laboratory Systems (ISO 17025)</label>
+            <div class="bar"><i style="width:90%"></i></div>
+          </div>
+          <div class="skill">
+            <label>SAP (Quality Module)</label>
+            <div class="bar"><i style="width:88%"></i></div>
+          </div>
+          <div class="skill">
+            <label>Data Analysis & Reporting</label>
+            <div class="bar"><i style="width:92%"></i></div>
+          </div>
+          <div class="skill">
+            <label>Problem Solving & Root Cause Analysis</label>
+            <div class="bar"><i style="width:93%"></i></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE TIMELINE -->
+      <section class="content-card" id="experience">
+        <h3>Experience</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <h4>Quality Control Technician — Synercore: Allmark Foods</h4>
+            <div class="meta">March 2024 – Current</div>
+            <p>Full responsibility for quality control, including raw material grading, in-house lab testing, equipment calibration, and traceability. Manage cleaning, sanitation, and pest control programs while ensuring compliance with food safety standards. Key duties include:</p>
+            <ul>
+                <li>Managing product release on SAP, investigating complaints, and implementing corrective actions.</li>
+                <li>Conducting in-process checks, supporting NPD trials, and managing external service providers.</li>
+                <li>Serving as a stand-in for the Quality Controller.</li>
+            </ul>
+          </div>
+          <div class="tl-item">
+            <h4>Quality Control Intern — Synercore: Allmark Foods</h4>
+            <div class="meta">September 2022 – March 2024</div>
+            <p>Conducted QC checks on raw materials and finished goods, calibrated equipment, and supported R&D with line trials. Maintained rigorous documentation, assisted with QMS duties, and ensured compliance with food safety procedures.</p>
+            <ul>
+                <li>Prepared and submitted micro samples to external labs.</li>
+                <li>Maintained high standards of hygiene and housekeeping in production.</li>
+                <li>Acted as the designated pest control representative.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="content-card" id="education">
+        <h3>Education</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <h4>Bachelor of Science (Hons) in Chemistry</h4>
+            <div class="meta">University of South Africa — 2023</div>
+          </div>
+          <div class="tl-item">
+            <h4>Bachelor of Science: Chemistry and Biochemistry</h4>
+            <div class="meta">North-West University — 2021</div>
+          </div>
+           <div class="tl-item">
+            <h4>National Senior Certificate / Matric Grade 12</h4>
+            <div class="meta">Reitumetse Secondary School — 2015</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT FORM -->
+      <section class="content-card" id="contact">
+        <h3>Contact Me</h3>
+        <div class="contact-details">
+            <p><strong>Email:</strong> <a href="mailto:lehlohonolohope@gmail.com">lehlohonolohope@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+27763059081">(+27) 76 305 9081</a></p>
+        </div>
+        <form class="contact" action="https://formspree.io/f/your-form-id" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+          <p class="form-note">I look forward to hearing from you and will respond as soon as possible.</p>
+        </form>
+      </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2025 Lehlohonolo Hope Mkhomazi. All rights reserved.
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    menuToggle.addEventListener('click', ()=>{ nav.classList.toggle('active'); });
+
+    // Animate skill bars on scroll
+    const skillsSection = document.querySelector('#competencies');
+    const skillBars = document.querySelectorAll('.skill .bar > i');
+    const animateSkills = () => {
+        const sectionTop = skillsSection.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (sectionTop < windowHeight - 100) {
+            skillBars.forEach(bar => {
+                bar.style.width = bar.parentElement.getAttribute('data-width');
+            });
+            window.removeEventListener('scroll', animateSkills);
+        }
+    };
+    
+    // Set data-width attribute from inline style for animation
+    skillBars.forEach(bar => {
+        const width = bar.style.width;
+        bar.parentElement.setAttribute('data-width', width);
+        bar.style.width = '0%';
+    });
+
+    window.addEventListener('scroll', animateSkills);
+  </script>
+</body>
+</html>```
